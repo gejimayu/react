@@ -8,3 +8,14 @@
   stroke: var(--color-commit-did-not-render-pattern);
   stroke-width: 1;
 }
+
+.FixedSizeList {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+
+.FixedSizeList::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}

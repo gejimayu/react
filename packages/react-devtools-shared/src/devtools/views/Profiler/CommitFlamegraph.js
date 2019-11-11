@@ -142,6 +142,7 @@ function CommitFlamegraph({chartData, commitTree, height, width}: Props) {
 
   return (
     <FixedSizeList
+      className={styles.FixedSizeList}
       height={height}
       innerElementType={InnerElementType}
       itemCount={chartData.depth}
